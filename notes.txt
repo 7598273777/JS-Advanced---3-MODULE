@@ -1,0 +1,20 @@
+Contents:
+Callback
+What's the callback? - call stack, web API, event loop, queue
+Use & its purpose of the callback
+Pain of callback
+Session reference  - http://latentflip.com/loupe/
+
+
+// Contents -CODE =>   1. Call stack / 2. Web API / 3.queue / 4. EVENT LOOP 
+
+Code => CALL STACK (normal  code get executed ) => WEB API (if it is special event) => queue (in order it excutes) - from Queue if it wants to go call stack - 
+//EVENT LOOP IN THE Queue checks the availability of CALL STACK
+
+Event loop - Time taking process - Skips and go to WEB API ( Resting Area )and waits in the queue - from there it comes to Execution place
+it waits - in queue -for :  if some other file execution happenings 
+
+
+
+
+
